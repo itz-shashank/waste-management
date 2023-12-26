@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container::BEFORE{
+    background:url("COMMUNITY.jpeg") NO-REPEAT CENTER CENTER/COVER;
+    content:"";
+    height: 100VH;
+    WIDTH:100%;
+    TOP:0;
+    LEFT:0;
+    position: absolute;
+    opacity: 0.6;
+    z-index: -1;
+
+
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+h1{
+    color: black;
+    font-weight:bolder;
+    font-size: 50px;
+    font-family: 'Lilita One', cursive;
+    text-shadow: 4PX 4PX #fff;
+}
+p{
+    margin-top: 40px;
+    color:rgb(46, 13, 4);
+    font-weight: bold;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container{
+    width:650px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    text-align: center;
+    
+    
+}
+
+.contact-box{
+    width: 350px;
+    height:430px;
+    background:white;
+    padding: 25px;
+    margin-left:80px;
+    border-radius:30px;
+    margin-top: 130px;
+    
+    
+}
+.form,
+.form-items{
+         width:100%;
+
+}
+.form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border:2PX SOLID WHITE;
+    outline: none;
+    border-radius: 30px;
+}
+.form-items .input:hover{
+    border: 3px solid black;
+}
+
+::placeholder{
+    COLOR:grey;
+    text-align:left;
+    font-size: 10PX;
+
+}
+button{
+    background :black;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    height: 30px;
+    width:60px;
+    border-radius:5px;
+    cursor: pointer;
+}
+button:hover{
+   background-color:grey;
+}
+label{
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+    

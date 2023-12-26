@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    
+}
+.section::before{
+    content: "";
+    background:url("img.jpg") no-repeat center center/cover;
+    height:100vh;
+    width:100%;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+
+    
+}
+.contain{
+    display:block;margin-top: 70px;
+    border:3px solid whitesmoke;
+    background-color: white;
+    margin: auto;
+    padding :4px;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+    
+    /* justify-content: center;
+    align-items: center; */
+    /* background-image: url("img.jpg"); */
+  
+
+
+}
+h1{
+    /* font-size: larger; */
+    font-size: 55px;
+    color: white;
+    text-shadow: 3px 2px black;
+    text-align: center;
+    text-decoration: solid;
+    margin-top: 20px;
+}
+#waste{ 
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:cursive;
+    color:black;
+    text-shadow: 8px;
+    
+    
+
+}
+
+#service{
+    font-style:bold;
+    margin:auto;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(24, 24, 95);
+    
+}
+#box{
+    height: 500px;
+    width:600px;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+
+
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+@keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.container:nth-child(1){
+    animation-delay: 0s;
+}
+.container:nth-child(2){
+    animation-delay: 1s;
+}
+.container:nth-child(3){
+    animation-delay: 2s;
+}
+
+
+.text-box{
+    padding: 20px 30px;
+    background:whitesmoke;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow:  2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+.left-container{
+    left: 0;
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left: -20px;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background:black;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+}
+@keyframes moveline {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+
+.text-box h2{
+    font-weight: 600;
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+.footer{
+    height:55vh;
+    width: 99vw;
+    
+    
+}
+.images{
+    display: flex;
+    
+    justify-items: center;
+    align-items: center;
+
+}
+.imgs{
+    height:300px;
+    width:300px;
+    margin: 8px;
+}
+.pick{
+    height:50px;
+    width:150px;
+    background: red;
+    border-radius: 10px; 
+    color: aliceblue;
+    margin-left: 600px;
+    font-weight: bolder;
+    font-size: 20px;
+    border:2px solid black;
+}
+.pick:hover{
+    color:white;
+    background:blue;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+  
+

@@ -1,0 +1,108 @@
+*{
+background-image: url("");
+background-size: cover;
+}
+.navbar::before{
+    background:url("1200px-Wheelabrator_Waste-to-Energy_Plant,_Saugus_MA.jpg");
+    content:"";
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:99vw;
+    
+    opacity: 0.5;
+    z-index:-1;
+    top: 0;
+    left: 0;
+}
+.navbar{
+
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20PX;
+}
+.logo{
+    height:50px;
+    width:80px;
+    margin-left: 15PX;
+}
+li{
+  list-style: none;
+  margin:5px;
+  padding:2px;
+  margin-top: 20px;
+  margin-left: 15PX;
+  font-weight: bold;
+
+}
+.PRIMARY{
+    COLOR:BLUE;
+    FONT-SIZE:14PX;
+    text-decoration: NONE;
+}
+.PRIMARY:HOVER{
+  COLOR:RED;
+  text-decoration: underline;
+}
+button{
+  HEIGHT:40PX;
+  WIDTH:150PX;
+  BORDER-RADIUS:20PX;
+  background-color:rgb(63, 145, 145);
+ font-weight: bolder;
+  margin-left: 18PX;
+  margin-top: 10PX;
+  text-decoration: none;
+  border: 3PX SOLID black;
+}
+button:hover{
+  background-color:transparent;
+
+}
+.LOGIN{
+  color: white;
+  padding: 5PX;
+  margin: 2PX;
+  font-size: 15PX;
+  text-decoration: none;
+  text-shadow: 1PX 1PX black;
+}
+.LOGIN:hover{
+  color:black;
+}
+.desp{
+    display: flex;
+    flex-direction:column;
+}
+.desp{
+
+  HEIGHT:400PX;
+  WIDTH:99VW;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100PX;
+
+
+}
+.each{
+    font-size:50px;
+    text-align: center;
+    color:black;
+    text-shadow:3px 5px 1px white;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Titan One', cursive;
+
+}
+h3{
+    font-size:30px;
+    text-align: center;
+    color:rgb(95, 20, 20);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lilita One', cursive;
+    
+}

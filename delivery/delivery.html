@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        form::before{
+            content:"";
+            background:whitesmoke;
+            height: 100vh;
+            width:100%;
+            position: absolute;
+            z-index: -1;
+            top:0;
+            left:0;
+            opacity:1;
+
+
+        }
+
+        form{
+            width: 450px;
+            height:600px;
+            display: flex;
+            flex-direction: column;
+            background-color:#ffffff;
+            border-radius: 20px;
+        
+            align-items: center;
+            /*box-shadow: 5px 7px   8px  #888888;*/
+            margin-top: 30px;
+            box-shadow:  2.8px 2.2px rgba(0, 0, 0, 0.034),
+                         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                         0 12.5px 10px rgba(0, 0, 0, 0.06),
+                         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                         0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                         0 100px 80px rgba(0, 0, 0, 0.12);
+            
+        }
+        form label{
+            display: flex;
+            margin-top:10px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        input{
+            align-content: center;
+            height:30px;
+            width:300px;
+            border-radius: 15px;
+            border: 2px solid grey;
+        }
+        
+        select{
+            align-content: center;
+            height:30px;
+            width:300px;
+            border-radius: 10px;
+            border: 2px solid grey;
+            
+        }
+        h1{
+            font-size: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <form action="backend.php">
+            <h1>Collect Now!</h1>
+            <label>NAME</label>
+            <input type="text" placeholder="">
+            <label>LOCATION</label>
+            <input type="text" placeholder="">
+            <label>ADDRESS</label>
+            <input type="text" placeholder="">
+            <label>LOCALITY</label>
+            <input type="text" placeholder="">
+            <label>PINCODE</label>
+            <input type="text" placeholder="">
+            <label for="waste">TYPE OF WASTE</label>
+            <select name="my waste" id="WASTE">
+                <option value="A">Biodegradable</option>
+                <option value="B">Non-Biodegradable</option>
+                <option value="C">Both</option>
+            </select>
+            <label>AMOUNT OF WASTE</label>
+            <input type="text" placeholder="Amount in kg (approx.)">
+            <br>
+            <div>
+                <button type="Reset" value="RESET">Reset</button>
+                <button type="Submit" value="SUBMIT">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

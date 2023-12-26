@@ -1,0 +1,181 @@
+.navbar{
+
+    border-bottom: 2px dotted black;
+    justify-content: flex-start;
+    display: flex;
+    height:40px;
+    background-color: black;
+    top: 0;
+
+
+}
+a{
+    color: #fff;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+    float:right;
+    margin-left: 10px;
+    
+    font-size:20px ;
+    
+
+}
+h1{
+    text-align: center;
+}
+section{
+    border:2px solid pink;
+    background:rgb(255, 138, 175);
+    height:170px;
+    width:95vw;
+    font-size:20px;
+    font-weight:100;
+    padding:4px;
+    margin:8px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.form{
+    height:800px;
+    width:95VW;
+    border: 2px solid black;
+    margin:auto;
+    margin-top: 100PX;
+    background-color: rgb(249, 235, 218);
+    
+}
+.ITEMS{
+    
+    height:470PX ;
+    WIDTH:90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+SPAN{
+    COLOR:RED;
+}
+BUTTON{
+    height: 40PX;
+    WIDTH:100PX;
+    COLOR:WHITE;
+    background-color: #14141c;
+    border-radius: 10PX;
+    margin: auto;
+}
+input{
+    height:30px;
+    width:200px;
+    margin:10px;
+   padding:2px;
+   border-radius: 10px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+
+
+}
+
+/* Import Google font - Montserrat*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+
+
+.container {
+position: relative;
+max-width: 300px;
+width: 100%;
+border-radius: 12px;
+padding: 15px 25px 25px;
+background: #fff;
+box-shadow: 0 8px 25px gray;
+}
+header {
+color: #333;
+margin-bottom: 20px;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+}
+.input_field {
+position: relative;
+height: 45px;
+margin-top: 15px;
+width: 90%;
+}
+.refresh_button {
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+background: #14141c;
+height: 30px;
+width: 30px;
+border: none;
+border-radius: 4px;
+color: #fff;
+cursor: pointer;
+}
+.refresh_button:active {
+transform: translateY(-50%) scale(0.98);
+}
+.input_field input,
+.button button {
+height: 100%;
+width: 100%;
+outline: none;
+border: none;
+border-radius: 8px;
+}
+.input_field input {
+padding: 0 15px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.captch_box input {
+color: #6b6b6b;
+font-size: 22px;
+pointer-events: none;
+}
+.captch_input input:focus {
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+.message {
+font-size: 14px;
+margin: 14px 0;
+color: #222620;
+display: none;
+}
+.message.active {
+display: block;
+}
+.button button {
+background: #14141c;
+color: #fff;
+cursor: pointer;
+user-select: none;
+WIDTH:420px;
+margin-left: 10px;
+}
+.button button:active {
+transform: scale(0.99);
+}
+.button.disabled {
+opacity: 0.9;
+pointer-events: none;
+}
+.ALL{
+    BORDER:2PX SOLID GREY;
+    HEIGHT:230PX;
+    WIDTH:430px;
+    margin: auto;
+}

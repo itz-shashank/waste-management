@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* font-family: 'Abril Fatface', cursive;
+/*font-family: 'Archivo Black', sans-serif;
+
+font-family: 'Noto Sans Osmanya', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Titan One', cursive;*/
+
+}
+
+body{
+    background-color:black;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background-color: aliceblue;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: blueviolet;
+    color: aliceblue;
+}
+h1{
+    color:aliceblue;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+.container p{
+    color:aliceblue;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+
+}
+
+.input-row .input-group{
+     flex-basis:45% ;
+}
+
+input{
+    width: 200px;
+    height:30px;
+    border : 2px solid  grey;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+::placeholder{
+     text-align:left;
+     padding-top:10px;
+    color:black;
+    opacity: 1;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline:none;
+    padding: 10px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:black;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.SEND{
+    background:red;
+    width: 100px;
+    border: BLACK;
+    color:white;
+    font-size:15PX;
+    font-weight: bold;
+    height:35px;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+}
+/*.Feedback{
+    background:red;
+    width: 200px;
+    border: none;
+    outline:none;
+    color:white;
+    font-size:15PX;
+    font-weight: bold;
+    height:35px;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+}*/
+.contact-left h3{
+    color: blue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+img{
+    height:30px;
+    width:30px;
+}
+td{
+    height:50px;
+    width:50px;
+}
+td:hover{
+    color:rgb(5, 5, 32);
+    text-decoration: underline;
+    
+}
+
+
+
+.ALL{
+    margin-top: 50PX;
+    display: flex;
+    flex-direction:row;
+    height:30vh;
+    width:100%;
+    margin-top:-40PX;
+    background-color:rgb(17, 17, 32);
+
+}
+.X{ display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    font-size: 15PX;
+    margin: auto;
+    
+    width: 90vw;
+    justify-content: center;}
+    
+a{ 
+    color:yellow;
+
+}
+a:hover{
+    color: red;
+}
+#a{
+    margin-left: 20px;
+}
+#b{
+    margin-left: 20px;
+}
+#c{
+    margin-left: 20px;
+}
+#d{
+    margin-left: 20px;
+}
+#e{
+    margin-left: 20px;
+}
+#f{
+    margin-left: 20px;
+}
+
+
